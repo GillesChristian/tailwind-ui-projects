@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-links {
+    @apply text-white text-sm font-light text-opacity-80 hover:text-opacity-100 ;
+};
+.button {
+    @apply   px-5 py-2 rounded-full;
+}
